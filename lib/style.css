@@ -1,0 +1,78 @@
+body {
+  /* background-image: url(C:\Users\Lenovo\Desktop\ginkgobalboa\immersion-2020-07-twiddler\pictures\Corinthian Pattern Classic Vector-01.jpg) ; */
+
+  background: rgb(230,193,7);
+	background: radial-gradient(circle, rgba(230,193,7,1) 0%, rgba(224,124,18,0.9447129193474265) 35%, rgba(250,95,0,1) 100%);
+  background-size: 1250px 1250px;
+	/* background-image: url('lib\images\Claw-Scratches-PNG-Pic.png'); */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: none;
+  text-align: center;
+}
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+	background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+	background-color:#d0451b;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:16px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.tweet {
+	style: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	background-color: #040000;
+	color: #f9f8f7;
+	border-style: solid;
+	border-radius:17px;
+	margin: 10px
+}
+.tweet {
+	outline:none;
+}
+
+a {
+  color: rgb(247, 115, 8);
+}
